@@ -1,0 +1,227 @@
+@charset "UTF-8";
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    padding: 5px;
+    height: 558px;
+    border-radius: 30px;
+    position: relative;
+    width: 470px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.back_container{
+    top: 0;
+    left: 0;
+    z-index: 1;
+    border: 2px solid #c2acd3;
+    border-radius: 50px;
+    position: absolute;
+    width: 285px;
+    height: 540px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color:#ffff;
+    color: #b0a5a5;
+}
+.front_container{
+    top: 0;
+    right: 0;
+    z-index: 0;
+    border: 2px solid;
+    border-radius: 50px;
+    position: absolute;
+    width: 280px;
+    height: 540px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: rgb(254, 255, 252);
+}
+.backview{
+    position: relative;
+    background-color: #f1e4f5;
+    height: 533px;
+    width:275px ;
+    border: 2px solid #96839d;
+    border-radius: 50px;
+    box-shadow: 2px 2px 7px 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.frontview{
+    position: relative;
+    background: url(iphone.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 525px;
+    width:268px ;
+    border: 5px solid;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aglet{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #161616;
+    height: 15px;
+    top: 0;
+    margin: 10px;
+    padding: 3px;
+    width: 70px;
+    border-radius: 30px;
+    box-shadow: 3px 1px 0px 1px;
+}
+.frontview p{
+    position: absolute;
+    right: 0;
+    margin: 4px;
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.4),
+                inset -3px -3px 6px rgb(85, 90, 116);
+    
+}
+.lens_section{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 15px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fircont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: #b3a0c3;
+    box-shadow: 1px 1px 1px 1px #b19ac4;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.firlens{
+    background-color: #b19ac4;
+    width: 80px;
+    display: flex;
+    box-shadow: 1px 2px 3px 0px black;
+    border-radius: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+.first{
+    position: relative;
+    width: 60px;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    border-radius: 50%;
+    border: 4px solid #c8bbd6;
+    box-shadow: 2px 4px 8px 2px;
+    margin-top: 10px;
+    margin-right: 8px;
+    margin-left: 5px;
+    background-color: #000000;
+}
+.firlayer{
+    display: flex;
+    width: 30px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 4px 4px 8px;
+
+}
+.firlayer1 p{
+    display: flex;
+    width: 30px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.4),
+                inset -3px -3px 6px rgb(47, 57, 112);
+}
+.second{
+    width: 60px;
+    display: flex;
+    height: 52px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 3px solid #c8bbd6;
+    box-shadow: 2px 4px 8px 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #131711;
+}
+.seclayer{
+    display: flex;
+    width: 30px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.seclayer p{
+    display: flex;
+    width: 30px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.4),
+                inset -3px -3px 6px rgb(47, 57, 112);
+}
+.seclens{
+    background-color:#e3e1e0;
+    border-radius: 50%;
+    width:30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.third{
+    display: flex;
+    align-items: center;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    justify-content: center;
+    border: 2px solid rgb(152, 149, 149);
+    box-shadow: inset 3px 3px 6px rgba(255, 255, 255, 0.4),
+                inset -3px -3px 6px rgb(110, 110, 112);
+
+}
+.logo i{
+    font-size: 80px;
+    padding-bottom: 30px;
+    color: #e1ceea;
+}
